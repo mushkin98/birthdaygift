@@ -1,0 +1,101 @@
+body {
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background: linear-gradient(rgb(238, 164, 28), lightblue);
+}
+
+@font-face {
+    font-family: face;
+    src: url(SnackerComicPersonalUseOnly-g3Z5.ttf);
+}
+
+@font-face {
+    font-family: monkey;
+    src: url(FontsFree-Net-Monkey.ttf);
+}
+
+.logo {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid lightcoral;
+
+}
+
+.tit, h3, p {
+    font-family: face;
+    font-size: 30px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#age {
+    font-family: monkey;
+    background-color: lightcoral;
+    border-radius: 5px;
+    margin: 10px 0px 10px 0px;
+    padding: 5px 10px;
+}
+
+#date {
+    font-family: monkey;
+    background-color: lightcoral;
+    border-radius: 5px;
+    margin: 10px 0px 10px 0px;
+    padding: 5px 10px;
+}
+
+.main-card {
+    margin: 0px auto;   
+    width: 400px;
+    height: 400px;
+    border: 5px solid white;
+    border-radius: 5px;
+    background-image: url(images/redcard.jpg);
+    background-size: cover;
+}
+
+#card-happy:hover{
+    background-image: url(gifs/dance.gif);
+}
+
+#card-enter:hover {
+    background-image: url(gifs/enterroom.gif);
+}
+
+#card-cut:hover {
+    background-image: url(gifs/happ.gif);
+}
+
+#card-bash:hover {
+    background-image: url(gifs/fundance.gif);
+}
+
+#card-eat:hover {
+    background-image: url(gifs/eating.gif);
+}
+
+#card-end:hover {
+    background-image: url(gifs/endsleep.gif);
+}
+
+#footer {
+    font-family: monkey;
+    font-style: italic;
+    width: 400px;
+}
+
+u {
+    color: red;
+}
+
+u:hover {
+    color: green;
+}
